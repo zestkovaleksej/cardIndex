@@ -1,0 +1,5 @@
+ const cardIndex = parseInt(user_input) - 1;
+      if (isNaN(cardIndex)  cardIndex < 0  cardIndex >= playerHand.length) {
+        console.log("Некорректный ввод. Пожалуйста, введите номер карты от 1 до 6.");
+        continue;
+      }
